@@ -8,9 +8,9 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include "hp02s.h"
-#include "twi.h"
-#include "HD44780.h"
+#include "lib/hp02s.h"
+#include "lib/twi.h"
+#include "lib/HD44780.h"
 
 
 void odczyt_cisnienia(void);
